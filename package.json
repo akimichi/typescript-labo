@@ -4,7 +4,9 @@
   "description": "Unit test for TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint __test__",
+    "lint:fix": "eslint __test__ --fix"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,11 @@
     "jest": "29.7.0",
     "ts-jest": "29.3.2",
     "typescript": "5.8.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.24.0",
+    "eslint": "9.24.0",
+    "globals": "16.0.0",
+    "typescript-eslint": "8.29.1"
   }
 }

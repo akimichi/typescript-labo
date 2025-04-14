@@ -6,7 +6,7 @@
 ## テストの実行
 
 ~~~
-$ npm run test
+$ npm test
 もしくは
 $ npx jest
 ~~~
